@@ -1,0 +1,63 @@
+package com.syntax.class14;
+
+public class Phone {
+	
+	String brand;
+	String color;
+	String model;
+	
+	void dial() {
+		System.out.println(brand + " can dial");
+	}
+	void text () {
+		System.out.println(brand+" can text");
+	}
+	void pics() {
+		System.out.println(brand + " can take pictures");
+	}
+	public static void main(String[] args) {
+		
+		
+	Phone iphone = new Phone();
+	iphone.brand = "Iphone";
+	iphone.color = "Red";
+	iphone.model = "Iphone11";
+	iphone.dial();
+	iphone.text();
+	iphone.pics();
+	
+	
+	
+	Phone android = new Phone();
+	android.brand = "Samsung";
+	android.color = "Black";
+	android.model = "Samsung Note 10";
+	android.dial();
+	android.text();
+	android.pics();
+	
+	Phone nokia = new Phone ();
+	nokia.brand = "Nokia";
+	nokia.color = "Gray";
+	nokia.model = "Nokia 9";
+	nokia.dial();
+	nokia.text();
+	nokia.pics();
+	
+	
+	String str = "Hello Friends";
+	str= str.replace("Hello", "Welcome");
+	System.out.println(str);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}	
+
+}
