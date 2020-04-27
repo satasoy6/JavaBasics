@@ -25,4 +25,15 @@ public class Methods {
 		}
 		
 	}
+	
+	void isLarger (int a, int b) {
+		
+		if (a<b) {
+			System.out.println(b+" is larger than "+a);
+		}else if (a>b) {
+			System.out.println(a+ " is larger than "+b);
+		}else {
+			System.out.println("Numbers are equal");
+		}
+	}
 }

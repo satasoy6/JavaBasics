@@ -8,7 +8,7 @@ public class LargestMethod {
 //	Create a method that will say Hello in different language based on the country that will passed when method is executed. 
 
 	
-	void  compare (int a , int b) {
+	int  compare (int a , int b) {
 		
 		if (a>b && a!=b) {
 			System.out.println(a +" is larger than "+b);
@@ -20,8 +20,20 @@ public class LargestMethod {
 			System.out.println(a+ " is equal to "+b);
 		}
 		
+		return b;
 		
 		
+	}
+	int largest(int a, int b) {
+		
+		int largest = 0;
+		if (a>b) {
+			largest = a;
+			
+		}else if (b>a) {
+			largest = b;
+		}
+		return largest;
 	}
 	
 	public static void main(String[] args) {

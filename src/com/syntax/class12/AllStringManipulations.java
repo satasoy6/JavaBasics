@@ -11,7 +11,7 @@ public class AllStringManipulations {
 //		   Because Strings are immutable and frequently used, Java has a shorthand initializer
 //		   for creating a String
 //		   **/
-//		   System.out.println("===========String initialization:!===========");
+		   System.out.println("===========String initialization:!===========");
 //		   String bootCamp = "Batch VI";
 //		   System.out.println(bootCamp);
 //		   
