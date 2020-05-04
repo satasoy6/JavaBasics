@@ -1,6 +1,6 @@
 package com.syntax.class20;
 
-public static class scrumTeam extends employee {
+public class scrumTeam extends employee {
 
 	String ceremonies;
 	

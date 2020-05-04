@@ -1,10 +1,10 @@
 package com.syntax.class32;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 
-import org.apache.poi.sl.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -20,10 +20,18 @@ public class WriteToExcel {
 		Workbook book = new XSSFWorkbook(fis);
 		
 		//writing into existing sheet
-		Sheet sheet2=book.getSheet("Sheet1");
+		Sheet sheet = book.getSheet("Sheet1");
 		
+		sheet.getRow(0).createCell(5).setCellValue("Country");//If there is something is already here it will be overwritten
 		
+		sheet.createRow(3).createCell(0).setCellValue("Hichem");
 		
+		Sheet customSheet = book.createSheet("TestSheet2");
+		
+		FileOutputStream fos = new FileOutputStream (filePath);
+		book.write(fos);
+		
+		//If you want to make modifications you need to load first
 		
 	}
 }

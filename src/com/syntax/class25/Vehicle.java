@@ -1,7 +1,6 @@
 package com.syntax.class25;
-public abstract class Vehicle1
 
-{
+public abstract class Vehicle {
 
 	static int totalVehicles;
 	String color;
