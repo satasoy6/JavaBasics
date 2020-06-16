@@ -46,10 +46,11 @@ class Bus extends Vehicle{
 	}
 }
 
-abstract class Car extends Vehicle {
+
+ abstract class Car1 extends Vehicle {
 	String carType;
 
-	Car(String color, String carType) {
+	Car1(String color, String carType) {
 		super(color);
 		this.carType = carType;
 	}
@@ -59,7 +60,7 @@ abstract class Car extends Vehicle {
 	}
 }
 
-class Tesla extends Car {
+class Tesla extends Car1 {
 
 	String make;
 
@@ -82,7 +83,7 @@ class Tesla extends Car {
 	}
 }
 
-class Toyota extends Car {
+class Toyota extends Car1 {
 
 	String make;
 

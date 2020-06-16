@@ -4,7 +4,7 @@ public class TaskCountry {
 	
 	public static void main(String[] args) {
 		
-		Map<String, Strting>
+		
 	}
 
 }

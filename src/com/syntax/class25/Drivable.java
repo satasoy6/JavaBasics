@@ -11,11 +11,16 @@ public interface Drivable {
 	
 	
 }
-	abstract class Vehicle {
+	abstract class Vehicle1 {
 		abstract void stop();
 	
 }
 class Cars extends Vehicle implements Drivable{
+
+	Cars(String color) {
+		super(color);
+		// TODO Auto-generated constructor stub
+	}
 
 	@Override
 	public void drive() {
@@ -24,8 +29,21 @@ class Cars extends Vehicle implements Drivable{
 	}
 
 	@Override
+	protected
 	void stop() {
 		System.out.println("Car stops");	
+	}
+
+	@Override
+	void start() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected void brake() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }

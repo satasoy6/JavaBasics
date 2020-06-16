@@ -1,0 +1,14 @@
+TestNg--unit test framework
+
+purpose--design test cases in a systematic way
+
+--html reports
+--diff annotations
+--priorities/sequence
+--dependency
+--grouping
+--data provider
+
+testng--open source, free
+JarFiles
+

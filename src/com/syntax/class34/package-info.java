@@ -10,17 +10,7 @@ package com.syntax.class34;
  */
 
 
-
-
-
-
-
-
-
-
-
-
-//What is the difference between finally {} vs final vs finalize()
+//What is the difference between finally {} vs final vs finalize()----INTERVIEW QUESTION
 //finally is a block that associated with try block and final is a keyword and it is a non access modifier that is
 //associated with class, method or variable
 //Final: class couldn't be inherited, final method couldn't be overridden.final variable could not be changed/ CONSTANT
